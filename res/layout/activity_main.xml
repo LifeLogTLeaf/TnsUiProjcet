@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_grey_white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TnS"
+        android:textColor="@color/icon_grey_light"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:text="collect my sns log..."
+        android:textColor="@color/icon_grey_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/ll_facebook"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_orange"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree2"
+                android:tint="@color/background_white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shack"
+                android:textColor="@color/background_white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="로그인"
+                android:textColor="@color/background_white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_grey"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:src="@drawable/icon_facebook"
+                android:tint="@color/background_white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textColor="@color/background_white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="로그인"
+                android:textColor="@color/background_white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
